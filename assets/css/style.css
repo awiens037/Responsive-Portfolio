@@ -138,3 +138,30 @@ h3 {
 	margin-right: 20px;
 	margin-top: 5px;
 }
+
+@media screen and (max-width: 980px) {
+	body: {
+		background-color: #ffffff;
+	}
+
+}
+
+@media and (max-width: 768px) {
+	body: {
+		background-color: #ffffff;
+	}
+
+}
+
+@media and (max-width: 640px) {
+	body: {
+		background-color: #ffffff;
+	}
+	
+	#name,
+	header {
+		position: static;
+		width: 100%;
+	}
+
+}
